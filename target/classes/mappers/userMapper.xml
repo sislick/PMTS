@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.htf.mapper.UserMapper">
+	
+	<!-- ********插入操作******* -->
+	<!-- Integer insUserByTel(User user) -->
+	<insert id="insUserByTel">
+		insert into user(
+			id,
+			name,
+			password,
+			salt,
+			role_id,
+			tel,
+			user_pic,
+			create_user,
+			create_time,
+			update_user,
+			update_time
+		)values(
+			#{id},
+			#{name},
+			#{password},
+			#{salt},
+			#{roleId},  
+			#{tel},
+			#{userPic},
+			#{createUser},
+			#{createTime},   
+			#{updateUser},
+			#{updateTime}
+		)
+	</insert>
+	<!-- *******修改****** -->
+	<!-- Integer updUserByTel(User user) -->
+	<update id="updUserByTel">
+		update user
+		set
+			id=#{id},
+			name=#{name},
+			password=#{password},
+			role_id=#{roleId},
+			tel=#{tel},
+			update_user=#{updateUser},
+			update_time=#{updateTime}
+		where tel=#{tel}
+	</update>
+	<!-- *******查询****** -->
+	<!-- User selUserByTel(String tel) -->
+	<select id="selUserByTel" resultType="user">
+		select * from user
+		where tel=#{tel}
+	</select>
+	<!-- User selUserByName(String name) -->
+	<select id="selUserByName" resultType="user">
+		select * from user
+		where name=#{name}
+	</select>
+	<!-- User selUserByNameOrTel(String value) -->
+	<select id="selUserByNameOrTel" resultType="user">
+		select * from user
+		where name=#{value} or tel=#{value}
+	</select>
+	<!-- Integer selCountByTel(String tel) -->
+	<select id="selCountByTel" resultType="int">
+		select count(*) from user
+		where tel=#{tel}
+	</select>
+	<!-- Integer selCountByName(String name) -->
+	<select id="selCountByName" resultType="int">
+		select count(*) from user
+		where name=#{name}
+	</select>
+	<!-- User selUserByNameAndPassword(String name,String password) -->
+	<select id="selUserByNameAndPassword"
+			resultType="user">
+		select * from user 
+		where name=#{name} and password=#{password} 
+	</select>
+	
+	<!-- User selUserByTelAndPassword(String tel,String password); -->
+	<select id="selUserByTelAndPassword"
+			resultType="user">
+		select * from user 
+		where tel=#{tel} and password=#{password} 
+	</select>
+</mapper>

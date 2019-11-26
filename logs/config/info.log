@@ -1,0 +1,132 @@
+2019-11-21 18:33:20.715  INFO 13616 --- [restartedMain] com.htf.App                              : Starting App on XA194804 with PID 13616 (E:\eclipse_workspace\express_system\target\classes started by huotengfei in E:\eclipse_workspace\express_system)
+2019-11-21 18:33:20.720  INFO 13616 --- [restartedMain] com.htf.App                              : No active profile set, falling back to default profiles: default
+2019-11-21 18:33:21.467  INFO 13616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-21 18:33:21.468  INFO 13616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-21 18:33:23.531  INFO 13616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-11-21 18:33:23.560  INFO 13616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-21 18:33:23.560  INFO 13616 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-11-21 18:33:23.665  INFO 13616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-21 18:33:23.665  INFO 13616 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2197 ms
+2019-11-21 18:33:24.514  INFO 13616 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 18:33:24.601  INFO 13616 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-21 18:33:24.934  INFO 13616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-21 18:33:25.021  INFO 13616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2019-11-21 18:33:25.025  INFO 13616 --- [restartedMain] com.htf.App                              : Started App in 5.093 seconds (JVM running for 5.824)
+2019-11-21 18:33:49.735  INFO 13616 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-21 18:33:49.735  INFO 13616 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-21 18:33:49.742  INFO 13616 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-11-21 18:35:41.186  INFO 4864 --- [restartedMain] com.htf.App                              : Starting App on XA194804 with PID 4864 (E:\eclipse_workspace\express_system\target\classes started by huotengfei in E:\eclipse_workspace\express_system)
+2019-11-21 18:35:41.189  INFO 4864 --- [restartedMain] com.htf.App                              : No active profile set, falling back to default profiles: default
+2019-11-21 18:35:41.228  INFO 4864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-21 18:35:41.228  INFO 4864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-21 18:35:42.618  INFO 4864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-11-21 18:35:42.645  INFO 4864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-21 18:35:42.645  INFO 4864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-11-21 18:35:42.764  INFO 4864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-21 18:35:42.765  INFO 4864 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1535 ms
+2019-11-21 18:35:43.313  INFO 4864 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 18:35:43.393  INFO 4864 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-21 18:35:43.650  INFO 4864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-21 18:35:43.697  INFO 4864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2019-11-21 18:35:43.701  INFO 4864 --- [restartedMain] com.htf.App                              : Started App in 2.841 seconds (JVM running for 3.166)
+2019-11-21 18:35:53.611  INFO 4864 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-21 18:35:53.611  INFO 4864 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-21 18:35:53.619  INFO 4864 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-11-21 18:39:36.706  INFO 25428 --- [restartedMain] com.htf.App                              : Starting App on XA194804 with PID 25428 (E:\eclipse_workspace\express_system\target\classes started by huotengfei in E:\eclipse_workspace\express_system)
+2019-11-21 18:39:36.708  INFO 25428 --- [restartedMain] com.htf.App                              : No active profile set, falling back to default profiles: default
+2019-11-21 18:39:36.743  INFO 25428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-21 18:39:36.743  INFO 25428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-21 18:39:38.151  INFO 25428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-11-21 18:39:38.176  INFO 25428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-21 18:39:38.177  INFO 25428 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-11-21 18:39:38.283  INFO 25428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-21 18:39:38.283  INFO 25428 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1540 ms
+2019-11-21 18:39:38.766  INFO 25428 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 18:39:38.841  INFO 25428 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-21 18:39:39.083  INFO 25428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-21 18:39:39.139  INFO 25428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2019-11-21 18:39:39.142  INFO 25428 --- [restartedMain] com.htf.App                              : Started App in 2.756 seconds (JVM running for 3.152)
+2019-11-21 18:39:44.427  INFO 25428 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-21 18:39:44.428  INFO 25428 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-21 18:39:44.440  INFO 25428 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-11-21 18:40:06.639  INFO 25428 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-21 18:40:07.019  INFO 25428 --- [restartedMain] com.htf.App                              : Starting App on XA194804 with PID 25428 (E:\eclipse_workspace\express_system\target\classes started by huotengfei in E:\eclipse_workspace\express_system)
+2019-11-21 18:40:07.019  INFO 25428 --- [restartedMain] com.htf.App                              : No active profile set, falling back to default profiles: default
+2019-11-21 18:40:07.322  INFO 25428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-11-21 18:40:07.323  INFO 25428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-21 18:40:07.323  INFO 25428 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-11-21 18:40:07.335  INFO 25428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-21 18:40:07.335  INFO 25428 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 314 ms
+2019-11-21 18:40:07.472  INFO 25428 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 18:40:07.493  INFO 25428 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-21 18:40:07.552  INFO 25428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-21 18:40:07.570  INFO 25428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2019-11-21 18:40:07.570  INFO 25428 --- [restartedMain] com.htf.App                              : Started App in 0.586 seconds (JVM running for 31.582)
+2019-11-21 18:40:07.572  INFO 25428 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-11-21 18:40:10.007  INFO 25428 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-21 18:40:10.008  INFO 25428 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-21 18:40:10.015  INFO 25428 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-11-21 18:46:29.861  INFO 25428 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-21 18:46:30.139  INFO 25428 --- [restartedMain] com.htf.App                              : Starting App on XA194804 with PID 25428 (E:\eclipse_workspace\express_system\target\classes started by huotengfei in E:\eclipse_workspace\express_system)
+2019-11-21 18:46:30.140  INFO 25428 --- [restartedMain] com.htf.App                              : No active profile set, falling back to default profiles: default
+2019-11-21 18:46:30.418  INFO 25428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-11-21 18:46:30.419  INFO 25428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-21 18:46:30.419  INFO 25428 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-11-21 18:46:30.451  INFO 25428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-21 18:46:30.451  INFO 25428 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 310 ms
+2019-11-21 18:46:38.508  INFO 8392 --- [restartedMain] com.htf.App                              : Starting App on XA194804 with PID 8392 (E:\eclipse_workspace\express_system\target\classes started by huotengfei in E:\eclipse_workspace\express_system)
+2019-11-21 18:46:38.510  INFO 8392 --- [restartedMain] com.htf.App                              : No active profile set, falling back to default profiles: default
+2019-11-21 18:46:38.551  INFO 8392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-21 18:46:38.551  INFO 8392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-21 18:46:39.961  INFO 8392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-11-21 18:46:39.987  INFO 8392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-21 18:46:39.987  INFO 8392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-11-21 18:46:40.087  INFO 8392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-21 18:46:40.088  INFO 8392 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1536 ms
+2019-11-21 18:46:40.619  INFO 8392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 18:46:40.694  INFO 8392 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-21 18:46:40.735  WARN 8392 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'viewResolver' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$ThymeleafWebMvcConfiguration$ThymeleafViewResolverConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.thymeleaf-org.springframework.boot.autoconfigure.thymeleaf.ThymeleafProperties': Could not bind properties to 'ThymeleafProperties' : prefix=spring.thymeleaf, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.thymeleaf.cache' to boolean
+2019-11-21 18:46:40.736  INFO 8392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-21 18:46:40.741  INFO 8392 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-11-21 18:46:40.768  INFO 8392 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-21 18:46:40.771 ERROR 8392 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.thymeleaf.cache' to boolean:
+
+    Property: spring.thymeleaf.cache
+    Value: flase
+    Origin: class path resource [application.yml]:9:14
+    Reason: failed to convert java.lang.String to boolean
+
+Action:
+
+Update your application's configuration
+
+2019-11-21 18:47:25.781  INFO 30508 --- [restartedMain] com.htf.App                              : Starting App on XA194804 with PID 30508 (E:\eclipse_workspace\express_system\target\classes started by huotengfei in E:\eclipse_workspace\express_system)
+2019-11-21 18:47:25.785  INFO 30508 --- [restartedMain] com.htf.App                              : No active profile set, falling back to default profiles: default
+2019-11-21 18:47:25.839  INFO 30508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-11-21 18:47:25.840  INFO 30508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-11-21 18:47:27.509  INFO 30508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-11-21 18:47:27.540  INFO 30508 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-21 18:47:27.541  INFO 30508 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-11-21 18:47:27.624  INFO 30508 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-21 18:47:27.624  INFO 30508 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1784 ms
+2019-11-21 18:47:28.125  INFO 30508 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-21 18:47:28.208  INFO 30508 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-11-21 18:47:28.478  INFO 30508 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-11-21 18:47:28.533  INFO 30508 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2019-11-21 18:47:28.536  INFO 30508 --- [restartedMain] com.htf.App                              : Started App in 3.162 seconds (JVM running for 3.531)
+2019-11-21 18:47:28.829  INFO 30508 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-21 18:47:28.830  INFO 30508 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-21 18:47:28.836  INFO 30508 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-11-21 18:50:32.003 ERROR 30508 --- [http-nio-8070-exec-7] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2019-11-21 18:50:32.016  INFO 30508 --- [http-nio-8070-exec-7] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-11-21 18:50:32.391  WARN 30508 --- [http-nio-8070-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.htf.service.ex.PasswordNotMatch: 账号密码不匹配]

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>牧云快递系统</title>
+		<link href="/css/index.css" rel="stylesheet" />
+		<link href="/css/ppt.css" rel="stylesheet" />
+		<script src="/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+		<script src="/js/index.js" type="text/javascript"></script>
+		<script src="/js/ppt.js" type="application/javascript"></script>
+	</head>
+
+	<body>
+		<!--
+        	作者：1814610808@qq.com
+        	时间：2019-11-17
+        	描述：头部
+        -->
+		<header>
+			<div id="header">
+				<div id="strip">
+					<ul type="none">
+						手机客户端下载
+						<li class="logo_img">
+							<img src="/imgs/logo.png" />
+						</li>
+					</ul>
+				</div>
+				<div id="item">
+					<ul type="none">
+						<li>logo</li>
+						<li><a href="#">首页</a></li>
+						<li>
+							牧云快递&nbsp;&nbsp;&or;
+							<ul type="none" class="nape nape1">
+								<li><a href="#">寄件</a></li>
+								<li><a href="#">取件</a></li>
+								<li><a href="#">查快递</a></li>
+							</ul>
+						</li>
+						<li>
+							我的订单&nbsp;&nbsp;&or;
+							<ul type="none" class="nape">
+								<li><a href="#">全部订单</a></li>
+								<li><a href="#">待取件</a></li>
+								<li><a href="#">运送中</a></li>
+								<li><a href="#">已签收</a></li>
+							</ul>
+						</li>
+						<li>
+							客服服务&nbsp;&nbsp;&or;
+							<ul type="none" class="nape">
+								<li><a href="#">我的投诉</a></li>
+								<li><a href="#">我的催件</a></li>
+								<li><a href="#">我的理赔</a></li>
+							</ul>
+						</li>
+						<li>
+							关于我们&nbsp;&nbsp;&or;
+							<ul type="none" class="nape">
+								<li><a href="#">企业概况</a></li>
+								<li><a href="#">经营理念</a></li>
+								<li><a href="#">成功案例</a></li>
+							</ul>
+						</li>
+						<li class="action" th:switch="${session.login}">
+							<a href="/user/login" th:case="null">快速登录/注册</a>
+							<!--href:修改信息的url -->
+							<a href="#" th:case="*" th:text="${session.login.name}">快速登录/注册</a>
+						</li>
+						<li class="user" th:switch="${session.login}">
+							<img src="/imgs/headpic/user.png" th:case="null" alt="头像" />
+							<img src="/imgs/headpic/user.png" th:case="*" th:src="@{'/imgs/headpic/'+${session.login.userPic}}" alt="头像" />
+							<ul type="none" class="nape nape_u">
+								<li><a href="#">修改信息</a></li>
+								<li><a href="#">地址管理</a></li>
+								<li><a id="exit" href="#">安全退出</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div id="info">
+
+				</div>
+			</div>
+		</header>
+		<!--
+        	作者：1814610808@qq.com
+        	时间：2019-11-17
+        	描述：主体
+        -->
+		<section>
+			<!--
+            	作者：1814610808@qq.com
+            	时间：2019-11-17
+            	描述：轮播图
+            -->
+			<!-- 轮播图 -->
+			<div class="slider">
+				<!-- 0.修改view->Template (关键字替换),增加template id -->
+				<div class="main" id="template_main" onmouseover="stopfn()" onmousemove="beginfn()">
+					<div class="main-i {{css}}" id="main_{{index}}">
+						<img src="/imgs/ppt/{{index}}.jpg" class="picture" />
+					</div>
+				</div>
+				<div class="ctrl" id="template_ctrl">
+					<a class="ctrl-i" id="ctrl_{{index}}" href="javascript:switchSlider({{index}});"><img src="/imgs/ppt/{{index}}.jpg" /></a>
+				</div>
+			</div>
+			<!--
+            	作者：1814610808@qq.com
+            	时间：2019-11-18
+            	描述：搜索快递单号
+            -->
+			<div id="search">
+				<input type="text" name="express_no" maxlength="15" placeholder="快递单号查询" />
+				<input type="button" value="查询" name="search_bt" />
+			</div>
+			<!--
+            	作者：1814610808@qq.com
+            	时间：2019-11-19
+            	描述：新闻资讯
+            -->
+			<div id="news">
+				<div class="news_report">
+					<img src="/imgs/news/{{news_img}}.png" alt="新闻报道" />
+					<div class="content">
+						<h2>
+							{{title}}
+						</h2>
+						<p>
+							{{words}}
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--
+            	作者：1814610808@qq.com
+            	时间：2019-11-19
+            	描述：成功案例
+            -->
+			<div id="success_case">
+				<div class="case_title">
+					<h1>成功案例</h1>
+					<p>每一次相会，牧云给您提供更快、更高效、更好的服务，我们与您牧云前行</p>
+				</div>
+				<div id="case">
+					<div class="case_img">
+						<img src="/imgs/case/case1.jpg" alt="成功案例1" />
+						<p>电子行业</p>
+					</div>
+					<div class="case_img">
+						<img src="/imgs/case/case1.jpg" alt="成功案例2" />
+						<p>服装行业</p>
+					</div>
+					<div class="case_img">
+						<img src="/imgs/case/case1.jpg" alt="成功案例3" />
+						<p>食品行业</p>
+					</div>
+					<div class="case_img">
+						<img src="/imgs/case/case1.jpg" alt="成功案例4" />
+						<p>医疗行业</p>
+					</div>
+				</div>
+			</div>
+			<!--
+            	作者：1814610808@qq.com
+            	时间：2019-11-19
+            	描述：活动专区
+            -->
+			<div id="activity">
+				<div class="activity_title">
+					<h1>活动专区</h1>
+				</div>
+				<div id="activity_ppt" onmouseover="stopfnActivity()" onmousemove="beginfnActivity()">
+					<div class="activity_img {{css}}" id="img_{{id}}">
+						<img class="pictureActivity" src="/imgs/activity/{{img}}.png" alt="{{alt}}" />
+					</div>
+				</div>
+				<div id="activity_dot">
+					<a id="dot_{{id}}" class="dot" href="javascript:switchActivity({{id}})"></a>
+				</div>
+				<div id="activity_item">
+					<div class="activity_subject">
+						<span class="subject_title">{{title}}</span>
+						<span class="subject_date">{{aDate}}</span>
+					</div>
+				</div>
+			</div>
+			<!--
+            	作者：1814610808@qq.com
+            	时间：2019-11-20
+            	描述：分割线
+            -->
+			<!--<hr id="line" />-->
+		</section>
+		<!--
+            	作者：1814610808@qq.com
+            	时间：2019-11-20
+            	描述：底部
+        -->
+		<footer>
+			<div id="link">
+				<ul type="none">
+					<li>快速链接
+						<ul type="none">
+							<li><a href="#">牧云系统</a></li>
+						</ul>
+					</li>
+					<li>成功案例
+						<ul type="none">
+							<li><a href="#">电子行业</a></li>
+							<li><a href="#">服装行业</a></li>
+							<li><a href="#">食品行业</a></li>
+							<li><a href="#">医疗行业</a></li>
+						</ul>
+					</li>
+					<li>服务支持
+						<ul type="none">
+							<li><a href="#">查询快递</a></li>
+							<li><a href="#">投诉中心</a></li>
+						</ul>
+					</li>
+					<li>
+						关于我们
+						<ul type="none">
+							<li><a href="#">关于牧云</a></li>
+							<li><a href="#">活动专区</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div id="contact">
+				<h2>服务热线</h2>
+				<img class="foot_img" src="/imgs/footer/f1.png" alt="" />
+				<span class="f1_title">13630238697</span>
+				<img class="foot_img f2_img" src="/imgs/footer/f2.png" alt="" />
+				<img class="foot_img f3_img" src="/imgs/footer/f3.png" alt="" />
+			</div>
+			<hr id="line" />
+			<div id="copyright">
+				<span class="word">&copy;牧云快递&nbsp;&nbsp;版权所有</span>
+				<span class="word">陕西省西安市未央区尚苑路</span>
+				<span class="word">备案号</span>
+			</div>
+		</footer>
+	</body>
+
+</html>

@@ -1,0 +1,36 @@
+#ppt{
+	border: 1px solid red;
+	margin-top: 100px;
+	z-index: 1;
+}
+#ppt #template_img{
+	width: 100%;
+	height: 485px;
+	overflow: hidden;
+}
+#ppt .img{
+	width: 100%;
+	float: left;
+	position: absolute;
+}
+#ppt .left_img{
+	left: -80%;
+}
+#ppt .right_img{
+	right: -80%;
+}
+#ppt .circle{
+	border-radius: 50%;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: rgba(66,66,66,0.4);
+	cursor: pointer;
+	/*background-color: #47086c;*/
+	margin-right: 5px;
+}
+#ppt #template_dot{
+	position: absolute;
+	top: 150px;
+	right: 100px;
+}

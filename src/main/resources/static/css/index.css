@@ -1,0 +1,394 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: "tahoma";
+	font-size: 14px;
+	color: #47086c;
+}
+a {
+	text-decoration: none;
+	color: #47086c;
+}
+/*********************头部**********************/
+
+#strip {
+	width: 100%;
+	height: 30px;
+	background-color: #47086c;
+}
+#strip>ul {
+	color: #fff;
+	position: relative;
+	right: -90%;
+	z-index: 2;
+	cursor: pointer;
+}
+.logo_img {
+	display: none;
+}
+#header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	line-height: 30px;
+	background: #f7f7f7;
+	color: #47086c;
+	font-size: 14px;
+	font-weight: bold;
+	z-index: 9;
+}
+#item {
+	width: 100%;
+	display: inline-block;
+}
+#info {
+	display: inline-block;
+	line-height: 0px;
+	position: absolute;
+	top: 30px;
+	right: 50px;
+	overflow: visible;
+}
+#item>ul>li {
+	float: left;
+	margin: 20px 40px;
+	font: 16px "microsoft yahei", "微软雅黑";
+	border-bottom: 2px solid #f7f7f7;
+	cursor: pointer;
+}
+#item>ul>li:hover {
+	border-bottom: 2px solid #47086c;
+}
+#item>ul>li>ul {
+	position: fixed;
+}
+#item>ul>li>ul>li>a {
+	display: inline-block;
+}
+#item>ul>li>ul>li>a:hover {
+	color: #fff;
+}
+#item>ul>li>ul>li:hover {
+	background-color: #47086c;
+	color: #fff;
+}
+.action {
+	position: absolute;
+	right: 150px;
+}
+.user {
+	position: absolute;
+	right: 100px;
+}
+#item img {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	border-radius: 50%;
+	top: -10px;
+}
+.nape {
+	visibility: hidden;
+}
+.nape>li {
+	top: 32px;
+	background-color: #f7f7f7;
+	position: relative;
+	left: -15px;
+	text-align: center;
+}
+.nape>li>a {
+	color: #666;
+	padding: 10px 25px;
+}
+.nape1>li {
+	left: -15px;
+}
+.nape_u>li {
+	top: 53px;
+	left: -28px;
+}
+/*******************搜索框********************/
+
+#search {
+	position: relative;
+	top: -60px;
+	left: 50px;
+	z-index: 8;
+	width: 600px;
+}
+#search input[name='express_no'] {
+	width: 400px;
+	height: 50px;
+	padding: 8px 25px;
+	font-size: 16px;
+	border: none;
+	border: 1px solid #f7f7f7;
+	border-radius: 35px;
+	outline: none; // 去除选中状态边框
+}
+#search input[name='search_bt'] {
+	width: 110px;
+	margin-left: 27px;
+	text-align: center;
+	height: 60px;
+	border-radius: 40px;
+	color: #fff;
+	letter-spacing: 10px;
+	vertical-align: middle;
+	background-color: #47086c;
+	cursor: pointer;
+	padding-left: 13px;
+	position: relative;
+	right: 150px;
+	font-size: 20px;
+	outline: none;
+}
+/*****************新闻报道*******************/
+
+#news {
+	margin: 50px auto 0;
+	width: 80%;
+	height: 450px;
+	text-align: left;
+}
+#news>.news_report {
+	width: 48%;
+	height: 100%;
+	display: inline-block;
+	cursor: pointer;
+}
+#news>.news_report_right {
+	position: relative;
+	left: 35px;
+}
+#news>.news_report>.content {
+	background-color: #f7f7f7;
+	height: 146px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+#news>.news_report>.content:hover {
+	background-color: #47086c;
+	color: #f7f7f7;
+}
+#news>.news_report>img {
+	width: 100%;
+	height: 300px;
+}
+#news>.news_report h2,
+#news>.news_report p {
+	font-family: "microsoft yahei";
+	font-size: 28px;
+	margin: 20px 0px 0px 30px;
+	font-weight: 300;
+	display: inline-block;
+	width: 85%;
+	word-wrap: break-word;
+}
+#news>.news_report h2 {} #news>.news_report p {
+	font-size: 16px;
+}
+/**************成功案例*************/
+
+#success_case {
+	width: 100%;
+	height: 350px;
+	text-align: center;
+	margin-top: 50px;
+	background-image: url(../imgs/case/case_Bg.jpg);
+	position: relative;
+	overflow: hidden;
+}
+.case_title,
+.activity_title {
+	position: relative;
+	overflow: hidden;
+}
+.case_title>h1,
+.activity_title>h1 {
+	font-family: "microsoft yahei";
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+.case_title>p {
+	font-size: 18px;
+	font-weight: 300;
+}
+#case {
+	margin-top: 30px;
+}
+.case_img {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0 50px;
+}
+.case_img>img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+#activity {
+	width: 80%;
+	margin: 50px auto 0px;
+	height: 400px;
+	text-align: center;
+	background-color: #f7f7f7;
+	position: relative;
+}
+#activity_ppt {
+	width: 250px;
+	height: 250px;
+	margin-left: 100px;
+	position: relative;
+	overflow: hidden;
+	background-image: url(../imgs/activity/a1.png);
+}
+.activity_img {
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	right: 50%;
+	top: 0;
+	z-index: 6;
+	-webkit-transition: all 0.8s;
+	opacity: 0;
+}
+.img_right {
+	right: -50%;
+}
+.img_active {
+	z-index: 7;
+	right: 0%;
+	opacity: 1;
+}
+#activity .activity_img img {
+	width: 250px;
+	height: 250px;
+}
+#activity_dot {
+	position: absolute;
+	bottom: 80px;
+	z-index: 7;
+	width: 250px;
+	left: 100px;
+}
+.dot {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: inline-block;
+	background-color: #47086c;
+	margin: 0 5px;
+}
+.dot_active {
+	background-color: #F7F7F7;
+	-webkit-transition: all 0.5s;
+}
+#activity_item {
+	display: inline-block;
+	position: absolute;
+	bottom: 70px;
+	width: 60%;
+	height: 250px;
+	right: 35px;
+}
+.activity_subject {
+	text-align: left;
+	margin: 10px 0px;
+	font-size: 16px;
+}
+.subject_title {
+	cursor: pointer;
+}
+.subject_title:hover {
+	border-bottom: 1px solid #47086c;
+}
+.subject_date {
+	position: absolute;
+	right: 0px;
+}
+footer {
+	width: 100%;
+	height: 300px;
+	background-color: #47086c;
+	margin-top: 50px;
+	font-size: 14px;
+	color: #f7f7f7;
+}
+#link {
+	width: 70%;
+	height: 85%;
+	display: inline-block;
+}
+#link>ul>li {
+	float: left;
+	margin: 20px 78px;
+	font-size: 20px;
+}
+#link>ul>li>ul {
+	margin-top: 15px;
+}
+#link a {
+	color: #f7f7f7;
+	font-size: 16px;
+	margin-top: 10px;
+	display: inline-block;
+}
+#link a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+#contact {
+	display: inline-block;
+	width: 29%;
+	height: 85%;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+#contact>h2 {
+	font-size: 20px;
+	font-weight: 300px;
+	position: relative;
+	top: 20px;
+}
+#line {
+	width: 100%;
+	height: 2px;
+	background-color: #f7f7f7;
+}
+footer .foot_img {
+	border: 1px solid white;
+	border-radius: 50%;
+	position: absolute;
+	top: 60px;
+	left: 100px;
+}
+footer .f1_title {
+	position: absolute;
+	top: 75px;
+	left: 180px;
+	font-size: 18px;
+}
+footer .f2_img {
+	top: 150px;
+	left: 100px;
+}
+footer .f3_img {
+	top: 150px;
+	left: 250px;
+}
+footer #copyright {
+	text-align: center;
+	line-height: 35px;
+}
+footer .word {
+	margin: 0 10%;
+}
