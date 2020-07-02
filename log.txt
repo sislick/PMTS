@@ -1,0 +1,38 @@
+SHA-1:f1de4ec - 创建人:huotengfei 时间:20-07-02 11:22:26 提交信息:重命名b.a->c.a
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+SHA-1:1c26d5a - 创建人:huotengfei 时间:20-07-02 11:16:38 提交信息:重命名a.a->b.a
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+SHA-1:b2a7e32 - 创建人:huotengfei 时间:20-07-02 11:11:17 提交信息:提交a.a
+ 1 file changed, 1 insertion(+)
+
+SHA-1:a3ea59e - 创建人:huotengfei 时间:20-07-02 10:56:41 提交信息:删除aa.txt
+ 1 file changed, 1 deletion(-)
+
+SHA-1:9616ea4 - 创建人:huotengfei 时间:20-07-02 10:23:14 提交信息:提交aa.txt
+ 1 file changed, 1 insertion(+)
+
+SHA-1:1dc9cad - 创建人:huotengfei 时间:20-07-02 10:18:05 提交信息:git忽略配置
+ 1 file changed, 1 insertion(+)
+
+SHA-1:87dec09 - 创建人:huotengfei 时间:20-07-02 10:14:18 提交信息:删除.gitignore文件
+ 1 file changed, 1 deletion(-)
+
+SHA-1:efebc40 - 创建人:huotengfei 时间:20-07-02 10:05:05 提交信息:删除a.p文件
+ 1 file changed, 1 deletion(-)
+
+SHA-1:4171273 - 创建人:huotengfei 时间:20-07-02 10:01:59 提交信息:测试
+ 1 file changed, 1 insertion(+)
+
+SHA-1:84ef31c - 创建人:huotengfei 时间:20-07-02 09:58:20 提交信息:忽略
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+SHA-1:15d5a41 - 创建人:huotengfei 时间:20-07-02 09:56:47 提交信息:忽略文件
+ 1 file changed, 1 insertion(+)
+
+SHA-1:b144df0 - 创建人:huotengfei 时间:20-07-02 09:46:11 提交信息:删除a.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+SHA-1:b71c463 - 创建人:huotengfei 时间:20-07-02 09:42:27 提交信息:7.2提交
+ 1 file changed, 0 insertions(+), 0 deletions(-)
